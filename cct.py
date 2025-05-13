@@ -66,7 +66,6 @@ def main():
 
     analyze_results(trace, X)
 
-hello = load_data()
 
 if __name__ == "__main__":
     main()
