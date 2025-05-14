@@ -4,7 +4,7 @@ import pymc as pm
 import arviz as az
 import matplotlib.pyplot as plt
 
-def load_data(path="plant_knowledge.csv"):
+def load_data(path="../data/plant_knowledge.csv"):
     '''Loads plant data in csv format.'''
     df = pd.read_csv(path)
     data = df.iloc[:, 1:].values.astype(int)
