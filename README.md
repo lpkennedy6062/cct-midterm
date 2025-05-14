@@ -19,3 +19,4 @@ Comparison with a simple majority vote more often than not matched the model wit
 The other 4 questions were flipped with the more competent informants answering 1 but overall 1 was answered much less.
 Overall, this model is able to show us which informants are most knowledgeable and produces a consensus key that mostly argrees with the average vote. 
 This demonstrates how by weighting by competence rather than treating each response equally, we can get a better sense of a more accurate group decision rather than treating each response and responder the same.
+AI Usage: I used AI on verifying I corrrectly coded the model and how to implement graphs.
