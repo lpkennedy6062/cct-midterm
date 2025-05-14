@@ -9,7 +9,7 @@ Liam Kennedy
 Report:
 I built a simple PyMC model with each person's competence (Di) was constrained between 0.5 and 1 so that nobody's competence was less than a coin flip. 
 I also looked at making sure that the true answer to any of the Zj questions was either 0 or 1 Bernoulli with a 50/50 prior. This meant that if the true answer was 1, an informant would answer 1 with the probability of Di.
-If the right answer was 0, then they would answer as 1 - Di. I ran 4 MCMC tests with 4 chains and 2000 draws per chain. I also added tuning steps as well into my equations. 
+If the right answer was 0, then they would answer as (1 - Di). I ran 4 MCMC tests with 4 chains and 2000 draws per chain. I also added tuning steps as well into my equations. 
 This meant that I was able to get accurate estimates reliably without any divergences. 
 
 When looking at my results, I had the average competence scores to be between 0.56 and 0.87, showing that some people were much more in sync with the group than others. 
