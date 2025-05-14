@@ -1,3 +1,10 @@
+Cultural Consensus Theory with PyMC
+Liam Kennedy
+
+
+
+
+
 Report:
 I built a simple PyMC model with each person's competence (Di) was constrained between 0.5 and 1 so that nobody's competence was less than a coin flip. 
 I also looked at making sure that the true answer to any of the Zj questions was either 0 or 1 Bernoulli with a 50/50 prior. This meant that if the true answer was 1, an informant would answer 1 with the probability of Di.
